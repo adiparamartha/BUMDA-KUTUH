@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+.addpayment_form_container
+{
+	height: 100%;
+	width: 100%;
+	margin-bottom: 75px;
+	background: linear-gradient(to top right, #fa9e1b, #8d4fff);
+	border-radius: 25px;
+	border-radius: 25px;
+}
+
+.tablist{
+	width: 50%;
+	height: 50px;
+	float: left;
+	border: 1px solid white;
+	margin-bottom: 50px;
+	opacity: 0.7;
+	cursor: pointer;
+	z-index: 10;
+	background-color: #FFFFFF;
+}
+
+.leftborder{
+	border-top-left-radius: 25px;
+}
+
+.rightborder{
+	border-top-right-radius: 25px;
+}
+
+.tablist p {
+	font-size: 18px;
+	text-align: center;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	cursor: pointer;
+	color: black;
+}
+
+.tablist img {
+	opacity: 1;
+	width: 20px;
+	height: 20px;
+}
+
+.active_tab_list{
+	opacity: 1;
+	background-color: #FB9E1B;
+}
+
+.database_list{
+	margin-top: 5px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 70px;
+	border: 1px solid #FB9E1B;
+	background-color: white;
+	border-radius: 10px;
+	color: #FB9E1B
+}
+
+.botmargin{
+	margin-bottom: 50px;
+}
+
+.database_list:hover {
+	border: 1px solid white;
+	background-color: #FB9E1B;
+	border-radius: 10px;
+	color: white;
+}
+
+.database_list h1 {
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.database_list p {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.database_list:hover p {
+	color: white;
+}
+
+.details{
+	float: left;
+	width: 22%;
+}
+
+.cursortext{
+	cursor: text;
+}
+
+.cursorpointer{
+	cursor: pointer;
+}
+
+.cursordefault{
+	cursor: default;
+}
+
+.manual_label_field{
+	width: 150px;
+	height: 48px;
+	font-size: 12px;
+	font-weight: 400;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #FFFFFF;
+	align-items: center;
+	text-align-last: left;
+	margin-left: 5%;
+}
+
+.manual_value_field{
+	height: 48px;
+	font-size: 12px;
+	font-weight: 400;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #FFFFFF;
+	word-wrap: break-word;
+}
+
+.link_value_field{
+	height: 48px;
+	text-decoration: underline;
+	font-weight: 400;
+	font-size: 12px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: blue;
+	word-wrap: break-word;
+}
+
+.link_value_field:hover{
+	opacity: 0.5;
+}
+
+.newdata p {
+	margin-top: 10px;
+	font-size: 12px;
+	color: white;
+	opacity: 0.5;
+	cursor:pointer;
+}
+
+.newdata p:hover {
+	opacity: 1;
+}
+
+.imgbutton{
+	margin-right: 30px;
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+.imgbutton:hover{
+	border:3px solid #FB9E1B;
+}
+
+.loadingtext{
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	opacity: 0.5;
+	cursor: default;
+}
+
+.loadingtext:hover{
+	opacity: 1;
+}
+
+hr {
+	background-color: white;
+	color: white;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.paymentdetail{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.paymentdetail p{
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+.error_report{
+	margin-top: 20px;
+	color: red;
+	font-weight: bold;
+	opacity: 1;
+	cursor: default;
+}
+
+.error_report:hover{
+	opacity: 0.5;
+}
+
+.linkimage{
+	left: 0;
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.database_list h1{
+	width: 80%;
+}
+
+.database_list img{
+	margin-top: 20px;
+}
