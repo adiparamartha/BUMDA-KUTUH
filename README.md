@@ -25,7 +25,7 @@ This Website had several features to accommodate ticket sales:
 
 <h2>Tools</h2>
   
-Beberapa tools yang digunakan untuk membuat Website ini:
+There's few tools used to create this Website:
   1. [Google Firebase](https://firebase.google.com/) (Back-End Service)
   2. Modified Bootstap Template by [Colorlib](https://colorlib.com/) (Thanks <3)
   3. HTML-CSS-JS
@@ -55,7 +55,7 @@ Website ini memiliki beberapa fitur yang dapat digunakan untuk penjualan Tiket, 
 
 <h2>Tools</h2>
 
-There's few tools used to create this Website:
+Beberapa tools yang digunakan untuk membuat Website ini:
   1. [Google Firebase](https://firebase.google.com/) (Back-End Service)
   2. Modified Bootstap Template by [Colorlib](https://colorlib.com/) (Thanks <3)
   3. HTML-CSS-JS
